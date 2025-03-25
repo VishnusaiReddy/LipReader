@@ -1,0 +1,42 @@
+# Python 3.10.0 specific requirements for LipNet
+
+# Deep Learning and Neural Networks
+tensorflow==2.15.0
+keras==2.15.0
+torch==2.1.2
+
+# Data Processing and Numerical Computing
+numpy==1.23.5
+scipy==1.10.1
+pandas==2.0.1
+
+# Video and Image Processing
+opencv-python==4.7.0.72
+imageio==2.31.1
+scikit-image==0.20.0
+
+# Machine Learning and Preprocessing
+scikit-learn==1.2.2
+dlib==19.24.2
+
+# Utilities
+tqdm==4.65.0
+matplotlib==3.7.1
+
+# Audio Processing (if needed for lip sync)
+librosa==0.10.0
+
+# Deep Learning Additional Libraries
+nltk==3.8.1
+editdistance==1.0.1
+
+# Virtual Environment and Development
+setuptools==67.7.2
+wheel==0.40.0
+
+# Optional: Jupyter Notebook support (uncomment if needed)
+# jupyter==1.0.0
+# notebook==6.5.4
+
+# Optional: Additional video processing
+# moviepy==1.0.3
