@@ -1,0 +1,89 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+
+# Machine Learning and Deep Learning Specific
+*.h5
+*.pth
+*.pt
+*.weights
+*.pkl
+*.joblib
+
+# Large Dataset Directories
+datasets/
+data/
+*.zip
+*.tar.gz
+
+# Video and Image Directories
+*.avi
+*.mp4
+*.mov
+*.mkv
+*.webm
+images/
+videos/
+
+# Model Checkpoints and Logs
+logs/
+checkpoints/
+runs/
+*.log
+tensorboard/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# System and Temporary Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Environment and Configuration
+.env
+*.env
+config.py
+
+# Compiled Python Files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Machine Learning Specific Exclusions
+*.model
+*.state_dict
+*.onnx
+
+# Backup Files
+*.bak
+*.backup
+
+# Performance and Profiling
+*.prof
+*.lprof
+
+# Test and Coverage Reports
+htmlcov/
+.coverage
+coverage.xml
